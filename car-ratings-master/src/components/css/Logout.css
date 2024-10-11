@@ -1,0 +1,10 @@
+body {
+    background-color: #FFF7EF; /* Cream color code */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+h3 {
+    text-align: center;
+    color: #E08E41;
+}

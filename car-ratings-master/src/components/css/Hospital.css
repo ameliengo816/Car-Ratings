@@ -1,0 +1,37 @@
+.hospital-item {
+    padding: 50px; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(0.9);
+      }
+}
+
+.hospital-img {
+    border-radius: 10px; /* Adjust the border-radius to make the box curved */ 
+}
+.hospital-info {
+    text-align: center;
+    background-color: #FFE8CC;
+    padding: 20px; /* Adjust the padding to add more space */
+    border-radius: 10px; /* Adjust the border-radius to make the box curved */
+    margin: 0 auto;
+    max-width: 375px; /* Set a maximum width for the hospital-info */
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+}
+
+.clicked-hospital-info {
+    text-align: center;
+    background-color: #FFE8CC;
+    padding: 20px; /* Adjust the padding to add more space */
+    border-radius: 10px; /* Adjust the border-radius to make the box curved */
+    margin: 0 auto;
+    max-width: 400px; /* Set a maximum width for the hospital-info */
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+}
+
+.description {
+    font-style: italic;
+}

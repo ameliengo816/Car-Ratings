@@ -1,0 +1,17 @@
+.users {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 40rem;
+    margin-right: 20px; /* Adjust the value as needed for the desired space */
+  }
+  
+  .users ul {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .users li {
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }

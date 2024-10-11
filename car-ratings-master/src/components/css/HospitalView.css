@@ -1,0 +1,119 @@
+h1 {
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  font-size: 60px;
+  margin: 0px;
+}
+
+.title {
+  margin-right: 120px;
+  padding: 0px; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute images evenly */
+  align-items: center; /* Center images vertically */
+  
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 7px; /* Add some padding around the container */
+ 
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute images evenly */
+  align-items: center; /* Center images vertically */
+  
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 7px; /* Add some padding around the container */
+}
+
+.hospital-post {
+  display: flex;
+  padding: 5px; 
+  flex-direction: column;
+  align-items: center; /* Center images vertically */
+
+}
+
+.buttons button {
+  margin-right: 10px; /* Adjust the value as needed for the desired space */
+}
+
+.buttons submit {
+  margin-right: 10px; /* Adjust the value as needed for the desired space */
+}
+
+.modify-buttons {
+  padding: 8px 16px; /* Adjust the padding to make the button thinner */
+  border: none;
+  border-radius: 25px; /* Adjust the border-radius to control the level of curve */
+  background-color: #FFE2C0;
+  color: #E08E41; /* Dark brown text color */
+  font-size: 16px;
+  font-family: Judson, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  
+  /* Optional: Add hover effect */
+  &:hover {
+    background-color: #d2b48c; /* Darker tan on hover */
+  }
+}
+
+.buttons {
+  align-items: right;
+  padding: 0px;
+}
+
+.submit-button {
+  padding: 8px 16px; /* Adjust the padding to make the button thinner */
+  border: none;
+  border-radius: 25px; /* Adjust the border-radius to control the level of curve */
+  background-color: #FFF3E8;
+  color: #E08E41; /* Dark brown text color */
+  font-size: 16px;
+  font-family: Judson, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+
+  /* Optional: Add hover effect */
+  &:hover {
+    background-color: #d2b48c; /* Darker tan on hover */
+  }
+}
+
+form {
+  display: flex;
+  justify-content: space-between; /* Distribute images evenly */
+  align-items: center; /* Center images vertically */
+  border-radius: 25px; /* Adjust the border-radius to control the level of curve */
+  
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 10px; /* Add some padding around the container */
+  max-width: 500px;
+ 
+}
+
+textarea {
+  display: flex;
+  border: none;
+  align-items: center; /* Center images vertically */
+}
+
+.form-title {
+  font-size: 20px;
+}

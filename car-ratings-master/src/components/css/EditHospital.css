@@ -1,0 +1,99 @@
+.body {
+    margin: 0;
+}
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100vh; /* Adjust the height based on your design */
+    margin: 30px; 
+    text-align: center;
+  }
+  
+  .label {
+    text-align: center;
+  }
+
+  .form {
+    color: #E08E41;
+    display: flex;
+    flex-direction: column; /* Stack form items vertically */
+    background-color: #FFE8CC;
+    width: 100%;
+    padding: 40px;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .form label, .form input, .form textarea {
+    margin-bottom: 10px; /* Adjust the margin between form items */
+    width: 99%;
+  }
+
+  .form label {
+    margin-bottom: 10px; /* Adjust the margin between label and form field */
+  }
+
+  .form button {
+    width: 20%;
+    padding: 8px 16px; /* Adjust the padding to make the button thinner */
+    border: none;
+    border-radius: 25px; /* Adjust the border-radius to control the level of curve */
+    background-color: #FFF3E8;
+    color: #E08E41; /* Dark brown text color */
+    font-size: 16px;
+    font-family: Judson, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  
+    /* Optional: Add hover effect */
+    &:hover {
+      background-color: #d2b48c; /* Darker tan on hover */
+    }
+  }
+
+  .whole {
+    background-color: #FFF3E8;
+    margin: 0;
+    padding: 0px;
+    font-family: Judson, sans-serif;
+    align-items: center;
+  }
+
+hr {
+    height: 4px; /* Adjust the height to make it thicker */
+    width: 90%; /* Set the width to 50% of the container */
+    margin: 20px auto; /* Center the line and add margin top/bottom */
+    background-color: #FFD4A1; /* Set the background color */
+    border: none; /* Remove the default border */
+}
+
+h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.modern-button {
+  padding: 8px 16px; /* Adjust the padding to make the button thinner */
+  border: none;
+  border-radius: 25px; /* Adjust the border-radius to control the level of curve */
+  background-color: #FFE2C0;
+  color: #E08E41; /* Dark brown text color */
+  font-size: 16px;
+  font-family: Judson, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  margin: 10px; 
+
+  /* Optional: Add hover effect */
+  &:hover {
+    background-color: #d2b48c; /* Darker tan on hover */
+  }
+}

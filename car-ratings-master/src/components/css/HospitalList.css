@@ -1,0 +1,14 @@
+.Hcontainer {
+    display: flex; 
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    justify-content: space-between; /* Distribute images evenly */
+    align-items: center; /* Center images vertically */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 7; /* Add some padding around the container */
+}
+
+.componenetLink {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+}
