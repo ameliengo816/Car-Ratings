@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    color: #E08E41;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+.topbar button {
+    margin-right: 10px; /* Adjust the value as needed for the desired space */
+    padding: 8px; 
+}
+
+.unauthUser {
+    background-color: #FFF7EF;
+    font-family: Judson, sans-serif;
+}
+
+hr {
+    height: 4px; /* Adjust the height to make it thicker */
+    width: 90%; /* Set the width to 50% of the container */
+    margin: 20px auto; /* Center the line and add margin top/bottom */
+    background-color: #FFD4A1; /* Set the background color */
+    border: none; /* Remove the default border */
+}
+
+
+
+.modern-button {
+    padding: 8px 16px; /* Adjust the padding to make the button thinner */
+    border: none;
+    border-radius: 25px; /* Adjust the border-radius to control the level of curve */
+    background-color: #FFE2C0;
+    color: #E08E41; /* Dark brown text color */
+    font-size: 16px;
+    font-family: Judson, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  
+    /* Optional: Add hover effect */
+    &:hover {
+      background-color: #d2b48c; /* Darker tan on hover */
+    }
+  }
+  .addHospital {
+    margin-left: 10px;
+    padding: 5px; 
+}
+
+.tagline {
+    font-family: Judson, sans-serif;
+    color: #E08E41;
+    font-style: italic;
+    text-align: center;
+    padding: 1px; 
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Vertically center items */
+}
+.homeouter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+    padding: 0px; 
+}
+
+.listcontainer {
+    justify-content: center;
+    align-items: center;
+}

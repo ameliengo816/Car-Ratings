@@ -1,0 +1,18 @@
+.userdisplay {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: flex-start; /* Align items horizontally to the start (left) */
+    padding: 2px; 
+    transition: transform 0.3s ease;
+}
+.userdisplay:hover {
+    transform: scale(0.8);
+}
+.username {
+    padding-left: 15px;
+}
+
+.pic {
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the entire container while maintaining aspect ratio */
+  }
